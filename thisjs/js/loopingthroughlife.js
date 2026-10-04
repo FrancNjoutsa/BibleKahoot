@@ -12,11 +12,11 @@ let myletter;
 while (counter <= 9) {
   myletter = name[counter];
   console.log(myletter);
-  if (counter === 7) {
+  if (counter === 6) {
     counter += 2;
     continue;
   }
-  if (myletter === "") break;
+  if (myletter === "g") break;
   counter++;
 }
 console.log(counter);
